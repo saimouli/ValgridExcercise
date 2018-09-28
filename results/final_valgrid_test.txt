@@ -1,0 +1,24 @@
+==3142== Memcheck, a memory error detector
+==3142== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==3142== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==3142== Command: ./app/shell-app
+==3142== 
+Averaged sensor reading: 10
+DONE
+==3142== 
+==3142== HEAP SUMMARY:
+==3142==     in use at exit: 72,704 bytes in 1 blocks
+==3142==   total heap usage: 4 allocs, 3 frees, 73,788 bytes allocated
+==3142== 
+==3142== LEAK SUMMARY:
+==3142==    definitely lost: 0 bytes in 0 blocks
+==3142==    indirectly lost: 0 bytes in 0 blocks
+==3142==      possibly lost: 0 bytes in 0 blocks
+==3142==    still reachable: 72,704 bytes in 1 blocks
+==3142==         suppressed: 0 bytes in 0 blocks
+==3142== Reachable blocks (those to which a pointer was found) are not shown.
+==3142== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==3142== 
+==3142== For counts of detected and suppressed errors, rerun with: -v
+==3142== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
