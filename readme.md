@@ -5,7 +5,7 @@
 
 ## Overview
 
-Pratice valgrind excercise 
+Pratice valgrind exercise 
 
 [Initial valgrind result](https://github.com/saimouli/ValgridExcercise/blob/valgrind_exercise/results/Initial_valgrid_test.txt)
 
@@ -13,6 +13,14 @@ Pratice valgrind excercise
 
 [Memory profile](https://github.com/saimouli/ValgridExcercise/blob/valgrind_exercise/results/memory_profile.png)
 
+## Dependencies
+```
+sudo apt-get install valgrind
+```
+```
+sudo apt-get install kcachegrind
+```
+more about valgrind and kcachegrind can be found in this [website] (http://maintainablecode.logdown.com/posts/245425-valgrind-is-not-a-leak-checker)
 
 ## Standard install via command-line
 ```
