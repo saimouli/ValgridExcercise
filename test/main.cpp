@@ -1,3 +1,11 @@
+/**
+ * @file    main.cpp
+ * @author  saimouli
+ * @copyright GNU public license
+ *
+ * @brief main.cpp to test the gtest
+ *
+ */
 #include <gtest/gtest.h>
 
 int main(int argc, char** argv) {
